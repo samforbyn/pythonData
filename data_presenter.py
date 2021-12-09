@@ -49,7 +49,13 @@ for line in myCsv:
         strawTotal = int(line[3]) * float(line[4])
         C += strawTotal
 
+# BAR GARPH
 x = np.array(["Chocolate", "Vanilla", "Strawberry"])
 y = np.array([A, B, C])
-plt.bar(x, y)
+# plt.bar(x, y)
+# plt.show()
+
+# PIE CHART
+labels = ["Chocolate", "Vanilla", "Strawberry"]
+plt.pie(y, labels = labels)
 plt.show()
