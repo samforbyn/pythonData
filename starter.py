@@ -1,6 +1,6 @@
 # PROBLEM 1
 # Create a variable that holds the value of your first name.
-name = "Sam"
+firstName = "Sam"
 
 # PROBLEM 2
 # Create a variable that holds the value of your favorite number.
@@ -12,7 +12,7 @@ favNum = 6
 brownHair = True
 # PROBLEM 4
 # Print your first name, by printing the variable created in problem 1.
-print(f'{name}')
+print(firstName)
 
 # PROBLEM 5
 #  Create a variable called `loves_code` and set it equal to true. 
